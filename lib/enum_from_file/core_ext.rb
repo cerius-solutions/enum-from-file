@@ -12,7 +12,7 @@ module EnumFromFile
           options[enum_name] = enum_from_file(file: options.delete(:from_file))
         end
 
-        super(options)
+        super(**options)
       end
 
       private
