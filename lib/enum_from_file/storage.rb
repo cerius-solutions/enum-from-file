@@ -39,6 +39,7 @@ module EnumFromFile
     end
 
     def instance_value(file)
+      file.rewind
       values = YAML.safe_load(file)
 
       return values.to_h unless values.is_a?(String)

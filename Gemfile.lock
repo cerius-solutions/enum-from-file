@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    enum_from_file (0.2.3)
+    enum_from_file (0.2.4)
       rails (>= 4.2.0)
 
 GEM
